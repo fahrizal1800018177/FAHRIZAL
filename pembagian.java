@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 class Kalkulator{
     
-     void pembagian(int a, int b){
-        System.out.println("Hasil Pembagian Dari A dan B = " + a / b);
+     void pembagian(float a, float b){
+         float hasil = a / b;
+        System.out.println("Hasil Pembagian Dari A dan B = " + hasil);
     }
 }
 public class Main{
