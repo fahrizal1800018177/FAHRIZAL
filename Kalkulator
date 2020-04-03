@@ -8,11 +8,16 @@ class Kalkulator{
         float hasil = a / b;
         System.out.println("Hasil Pembagiannya   : " + hasil);
      }
+     
+     void pengurangan(int a, int b){
+        int hasil = a - b;
+        System.out.println("Hasil Pengurangannya : " + hasil);
     }
+}
+   
+public class Main{
     
-    public class Main{
-    
-     public static void main(String[] args) {
+  public static void main(String[] args) {
 
         Kalkulator kal = new Kalkulator();
         Scanner userInput = new Scanner(System.in);
