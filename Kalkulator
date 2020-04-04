@@ -18,6 +18,11 @@ class Kalkulator{
         int hasil = a * b;
         System.out.println("Hasil Perkalian      : " + hasil);
     }
+    
+    void penjumlahan(int a, int b){
+        int hasil = a + b;
+        System.out.println("Hasil Penjumlahannya : " + hasil);
+    }
 }
    
 public class Main{
