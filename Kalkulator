@@ -38,6 +38,32 @@ public class Main{
         System.out.print("Masukkan Angka B : ");
         int inputB = userInput.nextInt();
         System.out.println();
-           
-           }
-        }
+        
+        System.out.println("\tPilihan!");
+        System.out.println("1. Penjumlahan");
+        System.out.println("2. Pengurangan");
+        System.out.println("3. Perkalian");
+        System.out.println("4. Pembagian");
+        System.out.println();
+        
+        System.out.print("Masukkan Pilihan : ");
+        int pilih = userInput.nextInt();
+
+        switch(pilih){
+            case 1:
+                    kal.penjumlahan(inputA, inputB);
+                    break;
+            case 2:
+                    kal.pengurangan(inputA, inputB);
+                    break;
+            case 3:
+                    kal.perkalian(inputA, inputB);
+                    break;
+            case 4:
+                    kal.pembagian(inputA, inputB);
+                    break;
+            default :
+                    System.out.println("Anda Salah Memasukkan Angka!");
+        } 
+   }
+}
