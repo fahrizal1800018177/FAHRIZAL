@@ -1,0 +1,4 @@
+void perkalian(int a, int b){
+        int hasil = a * b;
+        System.out.println("Hasil Perkalian      : " + hasil);
+    }
